@@ -3,14 +3,15 @@
 :root {
     --primary-color: #2D93AD;
     --secondary-color: #3BB273;
-    --accent-color: #F07167;
+    --accent1-color: #FDFCDC;
+    --accent2-color:#F07167;
 
     --heading-font: "Hedvig Letters Serif", serif;
     --paragraph-font: Roboto, "Sans Serif";
 
-    --nav-background-color: #2D93AD;
+    --nav-background-color: #FDFCDC;
     --nav-link-color: #F07167;
-    --nav-hover-link-color: #F07167;
+    --nav-hover-link-color: #2D93AD;
     --nav-hover-background-color: #3BB273;
 }
 
@@ -27,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     padding: 20px;
-    background-color: var(--accent-color);
+    background-color: var(--accent1-color);
 }
 
 p {
