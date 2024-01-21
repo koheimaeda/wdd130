@@ -48,6 +48,13 @@ aside img {
     height: auto
 }
 
+aside h2 {
+    position: absolute;
+    top: 30px;
+    left: 90px;
+    color: rgba(245, 241, 241, 0.822);
+}
+
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
@@ -62,11 +69,4 @@ footer {
     padding: 1rem;
     background-color: #fffaf0;
     color: #272727
-}
-
-aside h2 {
-    position: absolute;
-    top: 30px;
-    left: 90px;
-    color: rgba(245, 241, 241, 0.822);
 }
