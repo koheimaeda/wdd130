@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --primary-color: #2D93AD;
+    --secondary-color: #3BB273;
+    --accent1-color: #FDFCDC;
+    --accent2-color:#F07167;
+
+    --heading-font: "Hedvig Letters Serif", serif;
+    --paragraph-font: Roboto, "Sans Serif";
+
+    --nav-background-color: #FDFCDC;
+    --nav-link-color: #F07167;
+    --nav-hover-link-color: #2D93AD;
+    --nav-hover-background-color: #3BB273;
+}
+
+body {
+    max-width: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color: black;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    background-color: #1d1f1eb9;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0px;
+    color: #d3dad6d5;
+}
+
+.hero article {
+    position: absolute;
+    top: 220px;
+    left: 50px;
+    width: 90%;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img {
+    width: 300px;
+    float: right;
+}
+
+article p {
+    padding: 20px;
+    color: azure;    
+}
+
+article {
+    background-color:rgba(31, 161, 48, 0.582);
+}
