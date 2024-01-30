@@ -70,14 +70,14 @@ article p {
 }
 
 article {
-    background-color: rgba(31, 161, 48, 0.582);
+    background-color: rgba(24, 27, 24, 0.582);
 }
 
 header {
     display: grid;
     grid-template-columns: 150px 1fr;
     align-items: center;
-    background-color: #2D93AD;
+    background-color: #525a5c;
 }
 
 header img {
@@ -93,13 +93,13 @@ header nav {
 
 nav a {
     text-decoration: none;
-    color: aliceblue;
+    color: white;
     padding: 1em
 }
 
 nav a:hover {
-    color: #2D93AD;
-    background-color: aliceblue;
+    color: #525a5c;
+    background-color: white;
 }
 
 .history {
