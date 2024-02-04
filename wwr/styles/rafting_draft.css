@@ -20,7 +20,12 @@ body {
     font-family: var(--paragraph-font);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--heading-font);
     color: var(--primary-color)
 }
@@ -82,6 +87,7 @@ header img {
 
 header nav {
     display: flex;
+    /* width: 80%; */
     justify-content: space-evenly;
 }
 
@@ -117,14 +123,22 @@ nav a:hover {
 .adventure {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    /* grid-auto-rows: (100px, auto); */
     margin-top: 20px;
     justify-items: center;
     width: 100%;
 }
 
-.adventure figure {
+.adventure h2 {
+    grid-column: 1/6;
+}
+
+.adventure figure img {
     max-width: 100%;
     height: auto;
+}
+
+.adventure figure {
     text-align: center;
 }
 
@@ -159,93 +173,4 @@ footer {
 .right {
     grid-column: 8/-1;
     padding: 20px;
-}
-
-.happy_employees {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-top: 20px;
-    padding: 0px;
-    justify-items: center;
-    max-width: 100%;
-}
-
-.happy_employees h1 {
-    grid-column: 1/4;
-}
-
-.happy_employees figure img {
-    max-width: 100%;
-    height: auto;
-}
-
-.happy_employees {
-    text-align: center;
-}
-
-form {
-    width: 650px;
-    margin: 0 auto;
-    padding: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 0.5rem;
-    background-color: #eee;
-    display: grid;
-}
-
-form div {
-    display: grid;
-    padding: 10px;
-}
-
-label {
-    text-align: left;
-    padding-left: 0.5rem;
-}
-
-input, select, textarea {
-    padding: 0.5rem;
-}
-
-button {
-    margin: 1rem;
-    background-color: navy;
-    color: #fff;
-    border: none;
-    border-radius: .5rem;
-    padding: 0.75rem;
-    font-size: 1.2rem;
-}
-
-button:hover {
-    background: darkgreen;
-}
-
-h1 {
-    text-align: center;
-}
-
-.type_inquiry {
-    display: grid;
-    grid-template-columns: 50px 1fr;
-    padding-left: 0.5rem;
-    max-width: 100%;
-    text-align: left; 
-    gap: 5px
-}
-
-.type_inquiry p {
-    grid-column: 1/-1;
-    padding-left: 0.5rem;
-    margin-bottom: 5px;
-}
-
-.subscription {
-    display: flex;
-}
-
-.office_info {
-    display: flex;
-    max-width: 100%;
-    margin: 50px;
 }
